@@ -1,17 +1,18 @@
+
 # match-it [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Travis](https://img.shields.io/travis/IonicaBizau/match-it.svg)](https://travis-ci.org/IonicaBizau/match-it/) [![Version](https://img.shields.io/npm/v/match-it.svg)](https://www.npmjs.com/package/match-it) [![Downloads](https://img.shields.io/npm/dt/match-it.svg)](https://www.npmjs.com/package/match-it) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > A safer regex match.
 
 ## :cloud: Installation
-    
+
 ```sh
 $ npm i --save match-it
 ```
 
-            
+
 ## :clipboard: Example
 
-        
+
 
 ```js
 const matchIt = require("match-it");
@@ -27,9 +28,10 @@ console.log(matchIt("Hello Mars!", re)[1]);
 console.log(matchIt("Hello Pluto!", re)[1]);
 // => undefined
 ```
-    
+
 ## :memo: Documentation
-        
+
+
 ### `matchIt(input, re)`
 Finds the regex matches in the string.
 
@@ -40,14 +42,21 @@ Finds the regex matches in the string.
 #### Return
 - **Array** The `match` result or an empty array.
 
-        
+
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`clp`](https://github.com/IonicaBizau/clp)—A tiny and fast command line arguments parser.
+
 ## :scroll: License
-    
+
 [MIT][license] © [Ionică Bizău][website]
-    
+
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
