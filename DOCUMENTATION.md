@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Finds the regex matches in the string.
 
 #### Params
+
 - **String** `input`: The string input.
 - **RegExp** `re`: The regular expression.
 
