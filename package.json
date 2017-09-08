@@ -1,6 +1,6 @@
 {
   "name": "match-it",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A safer regex match.",
   "main": "lib/index.js",
   "directories": {
@@ -37,6 +37,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
