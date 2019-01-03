@@ -1,6 +1,6 @@
 {
   "name": "match-it",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A safer regex match.",
   "main": "lib/index.js",
   "directories": {
