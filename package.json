@@ -3,6 +3,7 @@
   "version": "1.0.9",
   "description": "A safer regex match.",
   "main": "lib/index.js",
+  "type": "module",
   "directories": {
     "example": "example",
     "test": "test"
