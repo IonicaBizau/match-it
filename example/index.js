@@ -1,10 +1,10 @@
 "use strict";
 
-const matchIt = require("../lib");
+import matchIt from "../lib/index.js";
 
 let re = /(World|Mars)/;
 
-console.log(matchIt("Hello World!", re)[1]);
+console.log(matchIt("Hello World!", re));
 // => World
 
 console.log(matchIt("Hello Mars!", re)[1]);
