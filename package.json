@@ -1,6 +1,6 @@
 {
   "name": "match-it",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A safer regex match.",
   "main": "lib/index.js",
   "directories": {
@@ -38,6 +38,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
